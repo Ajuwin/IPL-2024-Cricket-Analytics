@@ -27,8 +27,10 @@ The dataset includes:
 
 ## Project Structure
 
-IPL-2024-Data-Engineering/ │-- data/ # Raw and processed data stored in Hadoop │-- notebooks/ # Jupyter Notebooks for analysis │-- scripts/ # PySpark scripts for ETL processing │-- results/ # Processed insights and reports │-- README.md # Project documentation
-
+IPL-2024-Data-Engineering/
+│── IPL_2024_Analysis.ipynb  # Main Jupyter Notebook
+│── data/                    # Raw dataset (CSV)
+│── README.md                # Project documentation
 
 ## Running the Project
 
