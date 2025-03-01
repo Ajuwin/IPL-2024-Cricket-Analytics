@@ -40,7 +40,7 @@ IPL-2024-Data-Engineering/
 
 ### Prerequisites
 
-- Hadoop installed and configured
+- Hadoop installed and configured (Optional)
 - Spark installed
 - Jupyter Notebook setup
 
