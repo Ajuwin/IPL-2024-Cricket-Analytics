@@ -29,10 +29,10 @@ The dataset includes:
 
 ```
 IPL-2024-Data-Engineering/
-│── IPL_2024_Analysis.ipynb  # Main Jupyter Notebook
 │── data/                    # Raw dataset (CSV)
     |── ball_by_ball.csv
     |── matches.csv
+│── IPL_2024_Analysis.ipynb  # Main Jupyter Notebook
 │── README.md                # Project documentation
 ```
 
@@ -46,12 +46,8 @@ IPL-2024-Data-Engineering/
 
 ### Steps to Run
 
-1. Start Hadoop services: `start-dfs.sh && start-yarn.sh`
-2. Load data into Hadoop: `hdfs dfs -put local_file_path /hadoop_directory`
+1. Start Hadoop services (if using Hadoop): `start-dfs.sh && start-yarn.sh`
+2. Load data into Hadoop (if applicable): `hdfs dfs -put local_file_path /hadoop_directory`
+   If Hadoop is not used, update the file path in the scripts to read from the local file system instead.
 3. Run Jupyter Notebook: `jupyter notebook`
 4. Execute analysis notebooks to generate insights
-
-## Contributing
-
-Feel free to fork the repo, open issues, or submit pull requests for improvements.
-
