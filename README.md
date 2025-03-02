@@ -7,7 +7,7 @@ This project analyzes IPL 2024 match data using PySpark, focusing on player and 
 ## Tech Stack
 
 - **PySpark**: Data processing and transformations
-- **Hadoop**: File storage and retrieval
+- **Hadoop**: File storage and retrieval (Optional)
 - **Jupyter Notebook**: Interactive data analysis
 
 ## Data Sources
